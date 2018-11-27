@@ -1,0 +1,15 @@
+{
+  "name": "mood-jukebox",
+  "version": "1.0.0",
+  "description": "A mood Jukebox to play music based on mood and genre",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vidia Anindhita",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "joi": "^14.0.6"
+  }
+}
