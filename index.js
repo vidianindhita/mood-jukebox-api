@@ -10,7 +10,7 @@ const songs = [
     {id: 3, title: 'No Problem', artist: 'Chance The Rapper', mood: 'happy', genre: 'hip-hop' },
     {id: 4, title: 'Freddie Freeloader', artist: 'Miles Davis', mood: 'happy', genre: 'jazz' },
     {id: 5, title: 'Sonata No. 17 in C', artist: 'Mozart', mood: 'happy', genre: 'classical' },
-    {id: 6, title: 'Middle of the Road', artist: 'Learning to Crawl', mood: 'sad', genre: 'rock' },
+    {id: 6, title: 'Middle of the Road', artist: 'The Pretenders', mood: 'sad', genre: 'rock' },
     {id: 7, title: 'Someone Like You', artist: 'Adele', mood: 'sad', genre: 'pop' },
     {id: 8, title: 'Stan', artist: 'Eminem', mood: 'sad', genre: 'hip-hop' },
     {id: 9, title: 'How High The Moon', artist: 'Ella Fitzgerald', mood: 'sad', genre: 'jazz' },
