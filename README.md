@@ -47,5 +47,5 @@ Return: list of songs in a playlist
 Post a song in a playlist
 
 **PUT /api/player/play**
-Put isPlaying in the state to true
+Put isPlaying in the state to true, to play a song
 
