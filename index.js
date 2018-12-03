@@ -215,7 +215,7 @@ app.put('/api/player/play', (req, res) => {
         return res.status(404).send('There is no song to play.');
     }
     
-    const state = {
+    state = {
         id : req.body.id,
         title: req.body.title,
         artist: req.body.artist,
