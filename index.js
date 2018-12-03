@@ -221,6 +221,22 @@ app.put('/api/player/play', (req, res) => {
     res.send(state);
 });
 
+// PUT a song to Player (Play song)
+app.put('/api/player/stop', (req, res) => {
+    
+    state = {
+        id : req.body.id,
+        title: req.body.title,
+        artist: req.body.artist,
+        isPlaying: false,
+        mood: req.body.mood,
+        genre: req.body.genre,
+        url: req.body.url
+    }
+    
+    res.send(state);
+});
+
 function validateSong(song) {
     const schema = {
         title : Joi.string().required(),

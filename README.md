@@ -44,8 +44,36 @@ Return: A random song which genre is equal jazz
 Return: list of songs in a playlist
 
 **POST /api/playlist**
-Post a song in a playlist
+Post a song in a playlist. This function will CREATE a new object (a song) in a playlist. Example of request body object:
+
+{
+    "title": "How High The Moon",
+    "artist": "Ella Fitzgerald",
+    "mood": "sad",
+    "genre": "jazz",
+    "url": "http://206.189.186.47:3000/sound_files/9.wav"
+}
 
 **PUT /api/player/play**
-Put isPlaying in the state to true, to play a song
+Put play will update the state isPlaying to true. If isPlaying is true, the server know that the song is currently playing. Once the song is done playing, use PUT /api/player/stop to tell the server that the song is done playing. Example of request body object:
 
+{
+    "id": 9,
+    "title": "How High The Moon",
+    "artist": "Ella Fitzgerald",
+    "mood": "sad",
+    "genre": "jazz",
+    "url": "http://206.189.186.47:3000/sound_files/9.wav"
+}
+
+**PUT /api/player/play**
+Put stop will tell the server that the song is done playing. Example of request body object:
+
+{
+    "id": 9,
+    "title": "How High The Moon",
+    "artist": "Ella Fitzgerald",
+    "mood": "sad",
+    "genre": "jazz",
+    "url": "http://206.189.186.47:3000/sound_files/9.wav"
+}
