@@ -55,9 +55,6 @@ app.get('/api/songs', (req,res) => {
 
 // GET what is currently playing
 app.get('/api/player/currently-playing', (req, res) => {
-    if (state.isPlaying == false) {
-        return res.status(404).send('There is currently no song being played.');
-    }
     res.send(state);
 });
 
@@ -210,12 +207,8 @@ app.post('/api/playlist', (req, res) => {
 
 // PUT a song to Player (Play song)
 app.put('/api/player/play', (req, res) => {
-
-    if (state.isPlaying == false) {
-        return res.status(404).send('There is no song to play.');
-    }
     
-    const state = {
+    state = {
         id : req.body.id,
         title: req.body.title,
         artist: req.body.artist,
