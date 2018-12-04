@@ -30,7 +30,7 @@ const songs = [
     {id: 22, title: 'Perfect To Me', artist: 'Anne-Marie', mood: 'chill', genre: 'pop', url : '/sound_files/22.wav' },
     {id: 23, title: 'Self Care', artist: 'Mac Miller', mood: 'chill', genre: 'hip-hop', url : '/sound_files/23.wav' },
     {id: 24, title: 'Sophisticated Lady', artist: 'Sarah Vaughan', mood: 'chill', genre: 'jazz', url : '/sound_files/24.wav' },
-    {id: 25, title: 'Gymnopedie No.1', artist: 'Erik Satie', mood: 'chill', genre: 'classical', url : '/sound_files/25.wav' },
+    {id: 25, title: 'Gymnopedie No.1', artist: 'Erik Satie', mood: 'chill', genre: 'classical', url : '/sound_files/25.wav' }
 ];
 
 var state = {
