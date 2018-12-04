@@ -1,6 +1,6 @@
 # Mood Jukebox API
 
-Server: http://206.189.186.47:3000
+Server: http://157.230.4.44:3000/
 
 ## REST API
 
@@ -51,7 +51,7 @@ Post a song in a playlist. This function will CREATE a new object (a song) in a 
     "artist": "Ella Fitzgerald",
     "mood": "sad",
     "genre": "jazz",
-    "url": "http://206.189.186.47:3000/sound_files/9.wav"
+    "url": "http://157.230.4.44:3000/sound_files/9.wav"
 }
 
 **PUT /api/player/play**
@@ -63,7 +63,7 @@ Put play will update the state isPlaying to true. If isPlaying is true, the serv
     "artist": "Ella Fitzgerald",
     "mood": "sad",
     "genre": "jazz",
-    "url": "http://206.189.186.47:3000/sound_files/9.wav"
+    "url": "http://157.230.4.44:3000/sound_files/9.wav"
 }
 
 **PUT /api/player/play**
@@ -75,5 +75,5 @@ Put stop will tell the server that the song is done playing. Example of request 
     "artist": "Ella Fitzgerald",
     "mood": "sad",
     "genre": "jazz",
-    "url": "http://206.189.186.47:3000/sound_files/9.wav"
+    "url": "http://157.230.4.44:3000/sound_files/9.wav"
 }
